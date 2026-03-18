@@ -1,6 +1,4 @@
-import React, { useState, useMemo } from "react";
-import { useSelector } from "react-redux";
-import { RootState } from "../app/store";
+import React, {useMemo } from "react";
 import { motion } from "framer-motion";
 import {
   BarChart,
