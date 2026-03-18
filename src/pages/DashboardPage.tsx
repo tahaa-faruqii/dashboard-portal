@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { RootState } from "../app/store";
+import { useDispatch,  } from "react-redux";
 
 import { motion } from "framer-motion";
 import { generateRandomData } from "../feature/dashboard/dashboardSlice";
@@ -9,7 +8,6 @@ import ChartCard from "../component/ChartCard";
 
 const DashboardPage: React.FC = () => {
   const dispatch = useDispatch();
-  const metrics = useSelector((state: RootState) => state.dashboard.metrics);
 
   useEffect(() => {
     const interval = setInterval(() => {

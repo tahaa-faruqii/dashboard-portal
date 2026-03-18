@@ -16,13 +16,7 @@ import {
 } from "recharts";
 
 const AnalyticsPage: React.FC = () => {
-  const analyticsData = useSelector((state: RootState) => state.analytics);
 
-  const [filters, setFilters] = useState({
-    period: "30d",
-    category: "all",
-    status: "all",
-  });
 
   const chartData = useMemo(
     () => [

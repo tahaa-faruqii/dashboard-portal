@@ -6,16 +6,12 @@ import { motion } from "framer-motion";
 import {
   Settings,
   Sun,
-  Moon,
   Bell,
   Shield,
   Database,
-  Globe,
-  UserCheck,
   Zap,
   Save,
   ChevronRight,
-  ToggleLeft,
   ToggleRight,
 } from "lucide-react";
 
